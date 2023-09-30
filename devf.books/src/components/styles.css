@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Work+Sans:ital,wght@0,400;1,300&display=swap');
+
+.carousel-item img{
+    height: 15rem;
+    left: auto;
+    object-fit: cover;
+}
+
+.container{
+    padding-top: 2rem;
+    max-width: 700px;
+    margin: 2rem;
+}
+
+.container img{
+    max-width: 100%;
+    height: 250px;
+    border-radius: 9px;
+    box-shadow: 0 0.5rem 0.5rem black;
+    margin-right: 15%;
+}
+
+.container img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+ul{
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    justify-content: space-evenly;
+    
+}
+
+.container h3{
+    margin-top: 0.8rem;
+    margin-bottom: 0.1rem;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+ 
+}
+
+.container p{
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.footer-container{
+    color:white;
+}
+
+.footer-container h2{
+    font-size:12;
+}
